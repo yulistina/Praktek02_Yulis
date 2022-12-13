@@ -10,5 +10,13 @@ package praktek02_yulis;
  * @author HP 14-an017AU
  */
 public class Rectangle {
+    double panjang ;
+    double lebar;
     
+    void cetakinfo(){
+        System.out.println("====================");
+        System.out.println("panjang : "+panjang);
+        System.out.println("lebar: "+lebar);
+        System.out.println("====================");    
+    }
 }
